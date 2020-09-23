@@ -1,5 +1,5 @@
 #!/bin/bash
-counter=0
+counter=1
 count=0
 flag=1
 while [ $counter -eq 1 ]
