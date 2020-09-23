@@ -4,8 +4,9 @@ count=0
 flag=1
 while [ $counter -eq 1 ]
 do
-  num=$(($RANDOM % 9999 + 1000))
-  ((count++))
+
+  num=$(($RANDOM % 10000))
+  count=$(($count+1))
   for (( i=2;i<$(($num/2));i++))
   do
     if [ $(($num%$i)) -eq 0 ]
